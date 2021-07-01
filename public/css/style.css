@@ -1,0 +1,27 @@
+html {
+    height: 100%;
+}
+
+.bg-img {
+    background-image: url("/imgs/logo-screen.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.theme-text-color {
+    color: #ae0025;
+}
+
+.theme-bg {
+    background-color: #ae0025;
+    color: white;
+}
+
+.theme-grey {
+    background-color: #dad9d8;
+}
+
+footer {
+    background-color: #433d3c;
+}
