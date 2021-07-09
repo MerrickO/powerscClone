@@ -1,9 +1,13 @@
 const   express = require('express'),
         app     = express();
 
+const productsRoute = require('./routes/products');
+
 app.use(express.static(__dirname + '/public'));
 app.set('views', './views');
 app.set('view engine', 'ejs');
+
+app.use('/products', productsRoute);
 
 app.get('/', (req,res) => {
     res.render('index')
