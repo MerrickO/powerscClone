@@ -1,4 +1,9 @@
 const router = require('express').Router();
+const ft_seriesRoutes = require('../ft-series');
+const shantuiRoutes = require('../shantui')
+
+router.use('/ft-series', ft_seriesRoutes)
+router.use('/shantui', shantuiRoutes)
 
 router.get('/shantui', (req,res) => {
     res.render('./products/shantui');
