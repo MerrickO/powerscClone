@@ -3,7 +3,8 @@ html {
 }
 
 body {
-    font-family: "Roboto";
+    font-family: "Roboto" !important;
+    font-weight: 200;
 }
 
 h1 {
@@ -44,7 +45,9 @@ ul {
     color: #ae0025;
 }
 
-
+.theme-card-color {
+    background-color: #f4f8f8;
+}
 
 .theme-header-space {
     padding-top: 5%;
@@ -78,7 +81,8 @@ ul {
 }
 
 .theme-font-text {
-    
+    font-family: "Roboto";
+    font-weight: 700;
 }
 
 footer {
