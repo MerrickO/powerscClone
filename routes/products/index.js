@@ -1,9 +1,11 @@
 const router = require('express').Router();
 const ft_seriesRoutes = require('../ft-series');
-const shantuiRoutes = require('../shantui')
+const shantuiRoutes = require('../shantui');
+const powerstarRoutes = require('../powerstar-trucks');
 
 router.use('/ft-series', ft_seriesRoutes)
 router.use('/shantui', shantuiRoutes)
+router.use('/powerstar-trucks', powerstarRoutes)
 
 router.get('/shantui', (req,res) => {
     res.render('./products/shantui');
