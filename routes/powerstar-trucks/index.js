@@ -10,7 +10,7 @@ router.get('/v3-2646', (req,res) => {
 })
 
 .get('/v3-2646s', (req,res) => {
-    res.render('./products/powerstar-trucks/v3-2646s')
+    res.render('./products/powerstar-trucks/v3-2646s-et')
 })
 
 .get('/vx1627', (req,res) => {
